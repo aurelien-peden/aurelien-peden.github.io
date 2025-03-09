@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Aurélien Peden
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Aurélien Peden
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Aurélien
+last_name: Peden
 
 # Status emoji
 status:
@@ -20,92 +20,100 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Machine Learning Research Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: INRIA & École Polytechnique
+    url: https://team.inria.fr/cedar/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:aurelienpeden@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  #- icon: brands/x
+  #  url: https://twitter.com/GetResearchDev
+  #- icon: brands/instagram
+  #  url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/aurelien-peden
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/in/aurelienpeden/
+  #- icon: academicons/google-scholar
+  #  url: https://scholar.google.com/
+  #- icon: academicons/orcid
+  #  url: https://orcid.org/
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Reinforcement Learning
+  - LLMs
+  - Computer Vision and NLP
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MSc Artificial Intelligence
+    institution: Paris-Saclay University
+    date_start: 2022-09-01
+    date_end: 2023-09-29
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #button:
+    #  text: 'Read Thesis'
+    #  url: 'https://example.com'
+  - area: MEng Software Engineering and Applied Mathematics
+    institution: ENSIIE Engineering school
+    date_start: 2020-09-01
+    date_end: 2023-09-29
+    #summary: |
+    #  Courses included:
+    #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: BSc Computer Science
+    institution: Paris 12 University
+    date_start: 2018-09-01
+    date_end: 2020-06-30
+    #summary: |
+    #  Courses included:
+    #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Machine Learning Research Engineer
+    company_name: Inria Saclay
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2025-03-01
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Development of StatCheck, a statistical fact-checking app.
+      - Research and development of statistical data ingestion pipeline with Transformers and LLMs.
+      - Vector database development for semantic search over statistical claims.
+  - position: Machine Learning Research Engineer Intern
+    company_name: Owkin
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-03-01
+    date_end: 2023-08-31
+    summary: |
+      Responsibilities include:
+      - Reasearch on neural networks explainability methods applied to medical images and cancer diagnostics.
+      - Implementation of multiple neural networks architectures such as VGG, ResNet, Vision Transformers, AutoEncoders.
+      - Contribution to the development of a Deep Learning framework in Swift, allowing models to be developed using the internal GPU of a Mac and exposing the graph of layers, providing a unique way to design deep learning models for greater understanding, control and repoducibility.
+  - position: Data Scientist Intern
+    company_name: Natixis
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-05-01
+    date_end: 2021-08-31
+    summary: |
+      Responsibilities include:
+      - Development and training of a deep learning model for face detection and face masks classification.
+      - Development of a model monitoring pipeline.
+      - Synthetical dataset generation leveraging open source dataset and landmarks detection for fake face mask images.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -114,15 +122,30 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        #percent: 80
+        icon: code-bracket
+      - name: C/C++
+        #percent: 80
         icon: code-bracket
       - name: Data Science
         description: ''
-        percent: 100
+        #percent: 100
+        icon: chart-bar
+      - name: Computer Vision
+        description: ''
+        #percent: 100
+        icon: chart-bar
+      - name: NLP
+        description: ''
+        #percent: 100
+        icon: chart-bar
+      - name: Reinforcement Learning
+        description: ''
+        #percent: 100
         icon: chart-bar
       - name: SQL
         description: ''
-        percent: 40
+        #percent: 80
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
@@ -144,10 +167,8 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: French
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -183,4 +204,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Aurélien Peden is a Machine Learning Research Engineer at the INRIA Saclay CEDAR Lab and École Polytechnique. His work focuses on artificial intelligence, with interests spanning NLP, computer vision, reinforcement learning, and large language models. Passionate about computer science since the age of 10, he began by learning Python and C before diving into AI. Over the years, he has worked on various projects, including neural network explainability for AI-driven cancer diagnostics, object detection, semantic search, and LLM applications.
