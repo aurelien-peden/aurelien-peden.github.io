@@ -3,7 +3,7 @@
 title: Aurélien Peden
 
 # Name pronunciation (optional)
-name_pronunciation: Aurélien Peden
+# name_pronunciation: Aurélien Peden
 
 # Full name (for SEO)
 first_name: Aurélien
