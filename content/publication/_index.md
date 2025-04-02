@@ -1,5 +1,6 @@
 ---
 title: Publications
+hidden: true
 cms_exclude: true
 
 # View.

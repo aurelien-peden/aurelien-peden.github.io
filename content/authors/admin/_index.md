@@ -24,7 +24,7 @@ role: Machine Learning Research Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: INRIA & École Polytechnique
+  - name: Inria (CEDAR Lab) & École Polytechnique (LIX)
     url: https://team.inria.fr/cedar/
 
 # Social network links
@@ -51,14 +51,16 @@ interests:
   - Reinforcement Learning
   - LLMs
   - Computer Vision and NLP
+  - Vector databases
+  - Explainable AI
 
 education:
   - area: MSc Artificial Intelligence
     institution: Paris-Saclay University
     date_start: 2022-09-01
     date_end: 2023-09-29
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  #  summary: |
+  #    Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     #button:
     #  text: 'Read Thesis'
     #  url: 'https://example.com'
@@ -92,6 +94,7 @@ work:
       - Development of StatCheck, a statistical fact-checking app.
       - Research and development of statistical data ingestion pipeline with Transformers and LLMs.
       - Vector database development for semantic search over statistical claims.
+      - Development of ranking algorithms.
   - position: Machine Learning Research Engineer Intern
     company_name: Owkin
     company_url: ''
@@ -145,7 +148,7 @@ skills:
         icon: chart-bar
       - name: SQL
         description: ''
-        #percent: 80
+        # percent: 80
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
@@ -175,33 +178,35 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  # - title: Neural Networks and Deep Learning
+  #   url: https://www.coursera.org/learn/neural-networks-deep-learning
+  #   date: '2023-11-25'
+  #   awarder: Coursera
+  #   icon: coursera
+  #   summary: |
+  #     I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+  # - title: Blockchain Fundamentals
+  #   url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+  #   date: '2023-07-01'
+  #   awarder: edX
+  #   icon: edx
+  #   summary: |
+  #     Learned:
+  #     - Synthesize your own blockchain solutions
+  #     - Gain an in-depth understanding of the specific mechanics of Bitcoin
+  #     - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+  # - title: 'Object-Oriented Programming in R'
+  #   url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+  #   certificate_url: https://www.datacamp.com
+  #   date: '2023-01-21'
+  #   awarder: datacamp
+  #   icon: datacamp
+  #   summary: |
+  #     Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
 ## About Me
 
-Aurélien Peden is a Machine Learning Research Engineer at the INRIA Saclay CEDAR Lab and École Polytechnique. His work focuses on artificial intelligence, with interests spanning NLP, computer vision, reinforcement learning, and large language models. Passionate about computer science since the age of 10, he began by learning Python and C before diving into AI. Over the years, he has worked on various projects, including neural network explainability for AI-driven cancer diagnostics, object detection, semantic search, and LLM applications.
+Hi, I'm Aurélien Peden, a Research Engineer at the INRIA Saclay CEDAR Lab and École Polytechnique (LIX Lab). I’m passionate about AI, with a focus on areas like NLP, computer vision, reinforcement learning, and large language models. I’ve been into computer science since I was 10, starting out with Python and C before diving deep into AI. Over the years, I’ve worked on all kinds of cool projects, like making AI more explainable for cancer diagnostics, worked on the development of a deep learning framework to train neural networks on Apple silicon chip, developing object detection and segmentation systems, building semantic search tools with vector databases, and exploring various applications of large language models.
+
+I am currently working on information retrieval and vector databases to simplify the fact-checking process for journalists.

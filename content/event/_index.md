@@ -1,6 +1,7 @@
 ---
 title: Recent & Upcoming Talks
 cms_exclude: true
+hidden: true
 #url: talk
 
 # View

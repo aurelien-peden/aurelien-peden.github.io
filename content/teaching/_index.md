@@ -1,5 +1,6 @@
 ---
 title: Teaching
+hidden: true
 summary: My courses
 type: landing
 
